@@ -1,0 +1,47 @@
+body {
+background-color:#2e2387;
+
+}
+
+#weather-form {
+	 position: absolute; /* or absolute */
+  top: 50%;
+  left: 30%;
+  right: 30%;
+background: url('https://lintvwkbn.files.wordpress.com/2017/08/youngstown-ohio-weather-forecast-cloudy-61.jpg');
+box-shadow: 2px 2px 5px 2px black;
+}
+
+.modal {
+	color: white;
+	max-width: 400px;
+	margin: auto;
+	top: 30%;
+
+	
+}
+
+#modal {
+	background-color: #5996ff;
+	height: 400px;
+	width: 400px;
+	color: #201d35;
+	border-radius: 20px;
+	
+}
+
+h1 {
+	color: #201d35;
+	text-align: center;
+
+
+
+	
+
+}
+
+img {
+	width: 128px;
+	height: 128px;
+}
+
