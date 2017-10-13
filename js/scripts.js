@@ -26,6 +26,7 @@ $(document).ready(()=>{
 			}
 			var wind = weatherData.wind.speed
 			var windDeg = weatherData.wind.deg
+			var rain = weatherData.rain
 			var name = weatherData.name;
 			$("#name").html(`${name}`)
 			var icon = weatherData.weather[0].icon;
@@ -34,6 +35,7 @@ $(document).ready(()=>{
 			newHTML += `<div>The daily high is ${temps.max}&deg;.`
 			newHTML += `<div>The daily low is ${temps.min}&deg;.`
 			newHTML += `<div>The wind is ${wind} mph`;
+			newHTML += `<div>Rain ${rain}`;
 			$('#temp-info').html(newHTML);
 
 		});
